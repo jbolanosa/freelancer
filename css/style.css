@@ -1,0 +1,25 @@
+:root { /*pseudoselectores*/
+    --blanco: #ffffff; /* custom property */
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+}
+
+html {
+    font-size: 62.5%; /* truco para que 1rem = 10px*/
+}
+
+body {
+    font-size: 16px; /* truco para que 1rem = 10px*/
+    font-family: 'Krub', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+.titulo span {
+    font-size: 2rem;    
+}
