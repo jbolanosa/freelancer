@@ -106,36 +106,38 @@
                 sit amet feugiat eros venenatis. Phasellus efficitur urna et aliquam volutpat.</p>
             </section>
         </div>
-        
+
         <section>
             <h2>Contacto</h2>
     
-            <form action="">
+            <form class="formulario" action="">
                 <fieldset>
                     <legend>Contactános llenando todos los campos</legend>
-    
-                    <div>
-                        <label for="">Nombre</label>
-                        <input type="text" placeholder="Nombre">
+
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label for="">Nombre</label>
+                            <input class="input-text" type="text" placeholder="Nombre">
+                        </div>
+        
+                        <div class="campo">
+                            <label for="">Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Teléfono">
+                        </div>
+        
+                        <div class="campo">
+                            <label for="">Correo</label>
+                            <input class="input-text" type="email" name="" id="" placeholder="Correo">
+                        </div>
+        
+                        <div class="campo">
+                            <label for="">Mensaje</label>
+                            <textarea class="input-text" id=""></textarea>
+                        </div>
                     </div>
     
-                    <div>
-                        <label for="">Teléfono</label>
-                        <input type="tel" placeholder="Teléfono">
-                    </div>
-    
-                    <div>
-                        <label for="">Correo</label>
-                        <input type="email" name="" id="" placeholder="Correo">
-                    </div>
-    
-                    <div>
-                        <label for="">Mensaje</label>
-                        <textarea name="" id=""></textarea>
-                    </div>
-    
-                    <div>
-                        <input type="submit" value="Enviar">
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
                     </div>
                 </fieldset>
             </form>
@@ -143,7 +145,7 @@
     </main>
 
 
-    <footer>
+    <footer class="footer">
         <p>Todos los derechos reservados, José Bolaños Freelancer</p>
     </footer>
 </body>
